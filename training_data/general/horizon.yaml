@@ -1,43 +1,55 @@
 facts:
+  params:
+    mod_project: "Horizon (Horizon Private Server)"
+
   entries:
     horizon_project_definition:
-      - "Horizon is a fan-run server revival for Ratchet & Clank: Up Your Arsenal multiplayer on PS2 hardware and emulators that replicates the original online experience."
+      - "Horizon is a fan-run private server revival for Ratchet & Clank: Up Your Arsenal multiplayer that restores online functionality on original PS2 hardware and PCSX2 by replicating the original Sony online infrastructure."
 
     horizon_technical_replication:
-      - "Horizon reverse-engineered the PS2 network code and built custom backend infrastructure that redirects game traffic to Horizon servers."
+      - "Horizon reverse-engineered the PS2 Medius networking layer used by UYA and built a custom backend server emulator that redirects game traffic via DNS to Horizon-operated servers."
 
     horizon_launch_date:
-      - "Horizon launched for public testing on February 14, 2021."
+      - "Horizon publicly launched for UYA testing on February 14, 2021, marking the return of community-hosted online multiplayer years after official shutdown."
 
     horizon_connection_requirements:
-      - "A modded console is not required; unmodified PS2 consoles and PCSX2 can connect by changing network configuration settings."
+      - "A modded console is not required to connect to Horizon; unmodified PS2 systems and PCSX2 emulators can join by changing network configuration DNS settings."
 
     horizon_connection_instructions:
-      - "To connect, create or edit a network configuration and set the primary DNS to Horizon's provided server IP."
+      - "To connect to Horizon, players create or edit a PS2 network configuration and set the primary DNS to Horizon’s provided server address, which reroutes authentication and matchmaking traffic."
 
     horizon_pcsx2_support:
-      - "PCSX2 is supported by configuring DNS to Horizon's server."
+      - "PCSX2 fully supports Horizon connectivity by configuring emulator network settings to use Horizon’s DNS, enabling online matchmaking on PC."
 
-    horizon_clan_support:
-      - "Horizon supports clans, with functionality restored and improved over time."
-
-    horizon_leaderboard_support:
-      - "Horizon supports stat tracking and leaderboards similar to the original game."
-
-    horizon_custom_features:
-      - "Horizon adds mods, multiplayer bots, custom maps, colored clan tags, and upgraded lobbies."
-
-    horizon_custom_maps:
-      - "Horizon supports custom multiplayer maps, including campaign areas ported to multiplayer such as Daxx."
-
-    horizon_help_resources:
-      - "Players can get support and documentation through the Horizon Discord and GitHub wiki."
-
-    horizon_private_server_status:
-      - "Fan projects like Horizon restore UYA online play through custom servers and DNS redirection for PS2 hardware and emulators."
-
-    horizon_uya_multiplayer_access_today:
-      - "UYA multiplayer is currently accessible through community DNS redirection services like Horizon on original hardware and emulators, with added stability features and stat-tracking bots."
+    horizon_supported_games:
+      - "Horizon supports Ratchet & Clank: Up Your Arsenal and Ratchet: Deadlocked/Gladiator, with UYA being one of its primary active multiplayer communities."
 
     horizon_version_compatibility:
-      - "Horizon supports NTSC-U and PAL PS2 versions of UYA and does not support the PS3 HD release."
+      - "Horizon supports NTSC-U/C and PAL PS2 versions of UYA but does not support the PS3 HD Collection release."
+
+    horizon_clan_support:
+      - "Horizon restores clan functionality in UYA, allowing players to create, manage, and compete under clan tags similar to the original online experience."
+
+    horizon_leaderboard_support:
+      - "Horizon maintains stat tracking, persistent profiles, and leaderboards that mirror or expand upon original UYA online stat systems."
+
+    horizon_custom_features:
+      - "Horizon expands beyond vanilla restoration by introducing multiplayer bots, custom maps, colored clan tags, upgraded lobbies, and backend stability improvements."
+
+    horizon_multiplayer_bots:
+      - "Horizon hosts a UYA multiplayer bot project (commonly referred to as Thug) that connects as automated clients for lobby population, testing, and stat integration."
+
+    horizon_custom_maps:
+      - "Horizon supports custom multiplayer map development, including ports of campaign areas such as Daxx into competitive multiplayer environments."
+
+    horizon_map_tooling:
+      - "Community tooling associated with Horizon includes Forge-based map editing pipelines that enable creation and injection of custom multiplayer content into PS2-era UYA formats."
+
+    horizon_help_resources:
+      - "Players can access setup documentation, patch downloads, and troubleshooting support through the Horizon GitHub wiki and official Discord community."
+
+    horizon_private_server_status:
+      - "Horizon functions as a DNS-based private server replacement for Sony’s discontinued online services, allowing UYA multiplayer to remain playable today on original hardware and emulators."
+
+    horizon_uya_multiplayer_access_today:
+      - "UYA multiplayer remains actively accessible through Horizon’s DNS redirection infrastructure, providing matchmaking, stat tracking, and community-run server stability."

@@ -1,0 +1,25 @@
+facts:
+  params:
+    mode: "Siege"
+
+  entries:
+    mode_description:
+      - "Siege is a structured team-based objective mode in Ratchet & Clank: Up Your Arsenal multiplayer where teams must progressively dismantle outer defenses, breach the enemy base, and destroy the power core to win."
+
+    supported_maps:
+      - "Siege is supported on designated large-scale multiplayer maps including Bakisi Isles, Blackwater City, Hoven Gorge, Korgon Outpost, Metropolis, and Outpost X12, each designed with multiple capturable nodes and base defense layers."
+
+    node_backbone_role:
+      - "Nodes are the structural backbone of Siege mode, functioning as mandatory capture points that directly control forward spawn access, vehicle availability, and resource flow, making node control the central strategic determinant of offensive momentum and defensive pressure."
+
+    node_capture_mechanics:
+      - "Capturing nodes converts them into forward respawn locations for the controlling team and often unlocks map-specific tactical advantages such as vehicles or improved positional access toward the enemy base."
+
+    base_defenses:
+      - "Each team’s base contains layered automated defenses—including gatling turrets, missile turrets, defensive NPCs, and map-specific systems—that must be neutralized before attackers can access and damage the power core."
+
+    attrition_setting:
+      - "Attrition Siege is an advanced rule variation where captured nodes additionally strengthen a team's base defenses by increasing turret durability, damage output, and overall defensive resilience."
+
+    hostable_settings:
+      - "When hosting a Siege match, players can configure map selection, player count (up to 8), skill filters, weapon allowances, and advanced rule toggles such as enabling or disabling Attrition mode."

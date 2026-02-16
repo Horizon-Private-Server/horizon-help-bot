@@ -1,0 +1,22 @@
+facts:
+  params:
+    mode: "Capture the Flag"
+
+  entries:
+    objective:
+      - "In Capture the Flag, two teams must infiltrate the opposing team’s base, steal the enemy’s flag, and return it to their own base to score a point; the first team to reach the predefined score limit wins the match." 
+
+    variations:
+      - "There are two CTF variations available in the match settings: Normal mode and Chaos mode; Normal mode requires a team’s own flag to be present at its base in order to score after capturing the enemy flag, whereas Chaos mode allows a team to score simply by bringing back the enemy’s flag regardless of their own flag’s location." 
+
+    team_support:
+      - "Capture the Flag is team-based, typically dividing players into Red and Blue teams, and supports all maps in the multiplayer roster." 
+
+    scoring_condition:
+      - "A score happens when the enemy flag is touched to your own secured flag location at your base, with the specific scoring requirement depending on whether the match is set to Normal or Chaos CTF rules." 
+
+    flag_respawn:
+      - "If a flag is dropped or not at its base, it must typically be returned there (or respawn after a timer) before teams can score under Normal settings; Chaos mode removes the dependency on your own flag being home." 
+
+    match_customization:
+      - "When hosting a custom game lobby, players can adjust advanced CTF options (such as Normal vs Chaos mode) along with the map, allowed weapons, vehicles, and other multiplayer game settings before starting a match." 

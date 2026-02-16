@@ -1,0 +1,25 @@
+facts:
+  topic: "Deathmatch Game Settings (Ratchet & Clank: Up Your Arsenal Multiplayer)"
+
+  entries:
+
+    dm_objective:
+      - "In Deathmatch mode the goal is to be first to reach a pre-set number of kills in free-for-all, or to accumulate the most kills in Team Deathmatch where Red and Blue team kills count toward respective team scores." 
+
+    dm_respawn_and_scoring:
+      - "Players respawn at random locations after being killed, and self-inflicted deaths (such as falling off the map) result in a point penalty against the killer's score." 
+
+    dm_mode_types:
+      - "Standard Deathmatch is free-for-all where each player competes individually; Team Deathmatch splits players into two teams (usually Red vs Blue) with team aggregate scores determining winners." 
+
+    dm_maps:
+      - "Deathmatch supports all multiplayer maps in UYA, allowing matches in arenas designed for combat without bases or objective nodes." 
+
+    dm_custom_lobby_options:
+      - "When hosting a custom match lobby, players can set the game mode to Deathmatch or Team Deathmatch, select the map, and enable/disable specific weapons and vehicles for that match." 
+
+    dm_player_limits:
+      - "Multiplayer matches in UYA (including Deathmatch) support up to eight players online or up to four in offline split-screen local play." 
+
+    dm_kill_limit_or_timer:
+      - "Deathmatch matches use a pre-set kill limit or match timer to determine the end of the game, with the first to reach the kill limit or the highest score when time expires winning the match (exact values set in the lobby UI)." 
