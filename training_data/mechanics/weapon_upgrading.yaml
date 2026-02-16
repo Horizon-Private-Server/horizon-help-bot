@@ -1,0 +1,19 @@
+facts:
+  params:
+    system: "Weapon Upgrading (Multiplayer)"
+
+  entries:
+    upgrade_rule_core:
+      - "In Ratchet & Clank: Up Your Arsenal multiplayer, each weapon upgrades from its base version (V1) to a stronger version (V2) after the player uses that weapon to kill three other players."
+
+    upgrade_scope:
+      - "Weapon upgrading is tracked per-weapon, meaning kills earned with one weapon only progress that weapon toward its own V2 upgrade rather than upgrading the entire loadout at once."
+
+    upgrade_effect:
+      - "Upgraded (V2) weapons are more powerful than their V1 forms, typically improving lethality and combat effectiveness while keeping the same core role (e.g., the same weapon becomes the 'more powerful version' after upgrading)."
+
+    death_and_weapon_pack_transfer:
+      - "When a player dies in multiplayer, they drop a weapon pack containing the weapons they were carrying, and other players can collect that pack to obtain the dropped arsenal (including any upgraded weapons in it)."
+
+    practical_implication:
+      - "Because weapons (and their upgraded forms) can be lost on death and transferred through weapon packs, controlling fights and recovering packs is a major way teams preserve or steal upgraded weapon advantage during a match."
