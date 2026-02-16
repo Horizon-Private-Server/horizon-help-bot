@@ -13,7 +13,9 @@ SMART_QUOTES_MAP = {
     "\u2019": "'",  # ’ right single quote
 }
 
-DEFAULT_INPUT_DIR = "training_data"
+DEFAULT_INPUT_DIR = "data"
+DEFAULT_OUTPUT_DIR = "output"
+DEFAULT_OUTPUT_BASENAME = "vector_ready"
 
 
 def normalize_quotes(text: str) -> str:
@@ -121,7 +123,7 @@ def write_txt(output_path: Path, lines: List[str]) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Convert training_data YAML facts into a compressed text format."
+        description="Convert data YAML facts into a compressed text format."
     )
     parser.add_argument(
         "--input-dir",
@@ -132,12 +134,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--format",
         choices=("txt", "jsonl"),
-        required=True,
-        help="Output format.",
+        default="jsonl",
+        required=False,
+        help="Output format (default: %(default)s).",
     )
     parser.add_argument(
         "--output",
-        help="Output path. Defaults to training_data.<format>.",
+        help="Output path. Defaults to output/vector_ready.<format>.",
     )
     return parser.parse_args()
 
@@ -148,7 +151,7 @@ def main() -> int:
     output_path = (
         Path(args.output).resolve()
         if args.output
-        else Path(f"training_data.{args.format}").resolve()
+        else (Path(DEFAULT_OUTPUT_DIR) / f"{DEFAULT_OUTPUT_BASENAME}.{args.format}").resolve()
     )
 
     if args.format == "txt":
