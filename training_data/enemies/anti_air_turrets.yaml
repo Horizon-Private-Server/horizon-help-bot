@@ -3,7 +3,7 @@ facts:
 
   entries:
     base_defenses_spawn:
-      - "In *Ratchet & Clank: Up Your Arsenal* multiplayer, each team base automatically spawns static defensive turrets at the beginning of Siege and Capture the Flag matches, including gatling turrets and missile turrets that guard the base approaches and power core. These defenses are present from match start and do not require player activation. "
+      - "In Ratchet & Clank: Up Your Arsenal multiplayer, each team base automatically spawns static defensive turrets at the beginning of Siege and Capture the Flag matches, including gatling turrets and missile turrets that guard the base approaches and power core. These defenses are present from match start and do not require player activation. "
 
     anti_air_role:
       - "Although not described as separate 'anti-air ships,' the base defenses (including missile turrets) act as anti-aircraft threats by firing at nearby enemy vehicles such as hoverships when they get close to the base. Players commonly report that hoverships are targeted by base turrets when attacking from above, making turret destruction a key step before aerial assaults. "

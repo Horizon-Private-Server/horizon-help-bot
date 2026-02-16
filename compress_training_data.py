@@ -13,6 +13,8 @@ SMART_QUOTES_MAP = {
     "\u2019": "'",  # ’ right single quote
 }
 
+DEFAULT_INPUT_DIR = "training_data"
+
 
 def normalize_quotes(text: str) -> str:
     # Fast, explicit replacement (avoids translating other punctuation).
@@ -123,8 +125,9 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--input-dir",
-        default="training_data",
-        help="Root directory containing YAML fact files.",
+        default=DEFAULT_INPUT_DIR,
+        required=False,
+        help="Root directory containing YAML fact files (default: %(default)s).",
     )
     parser.add_argument(
         "--format",
@@ -134,7 +137,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--output",
-        help="Output path. Defaults to all.<format>.",
+        help="Output path. Defaults to training_data.<format>.",
     )
     return parser.parse_args()
 
@@ -143,7 +146,9 @@ def main() -> int:
     args = parse_args()
     input_dir = Path(args.input_dir).resolve()
     output_path = (
-        Path(args.output).resolve() if args.output else Path(f"all.{args.format}").resolve()
+        Path(args.output).resolve()
+        if args.output
+        else Path(f"training_data.{args.format}").resolve()
     )
 
     if args.format == "txt":

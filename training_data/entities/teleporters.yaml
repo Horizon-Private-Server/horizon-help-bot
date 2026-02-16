@@ -4,7 +4,7 @@ facts:
 
   entries:
     mechanic_description:
-      - "In *Ratchet & Clank: Up Your Arsenal* teleporters are green pads that instantly send a player to a linked teleporter pad; they function the same general way as in other games in the series, though with a new appearance and particle effects when used." 
+      - "In Ratchet & Clank: Up Your Arsenal teleporters are green pads that instantly send a player to a linked teleporter pad; they function the same general way as in other games in the series, though with a new appearance and particle effects when used." 
 
     multiplayer_context:
       - "The game's online multiplayer supports up to eight players in modes like Deathmatch, Capture the Flag, and Siege, where multiplayer combat and objectives play out on maps derived from the single-player campaign." 

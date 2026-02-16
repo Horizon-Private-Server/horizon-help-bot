@@ -4,7 +4,7 @@ facts:
 
   entries:
     turret_identity:
-      - "Base Gatling Turrets in *Ratchet & Clank: Up Your Arsenal* multiplayer are spherical, rapid-fire defensive turrets positioned at each team's base to block enemy entry and must be destroyed to assault the base interior." 
+      - "Base Gatling Turrets in Ratchet & Clank: Up Your Arsenal multiplayer are spherical, rapid-fire defensive turrets positioned at each team's base to block enemy entry and must be destroyed to assault the base interior." 
 
     turret_mechanics:
       - "These turrets automatically fire a rapid gatling gun attack that tracks nearby players; in multiplayer Siege mode, there are two defending turrets per base that significantly slow attackers and require tactical dodging and sustained fire to destroy." 

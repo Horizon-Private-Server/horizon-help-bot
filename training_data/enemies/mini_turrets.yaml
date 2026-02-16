@@ -4,7 +4,7 @@ facts:
 
   entries:
     node_mini_turret_activation:
-      - "In *Up Your Arsenal* multiplayer, once a node is captured and active, it enables a mini-turret that automatically fires on nearby enemies, providing defensive fire around that node." 
+      - "In Up Your Arsenal multiplayer, once a node is captured and active, it enables a mini-turret that automatically fires on nearby enemies, providing defensive fire around that node." 
 
     node_defenses_prior_capture:
       - "Uncaptured nodes are defended by neutral troopers and turrets that must be destroyed before the bolt crank to capture the node can be used." 

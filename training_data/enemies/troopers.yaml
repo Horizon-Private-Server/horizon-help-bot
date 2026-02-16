@@ -4,7 +4,7 @@ facts:
 
   entries:
     node_defender_role:
-      - "In *Up Your Arsenal* multiplayer, uncaptured nodes are guarded by neutral troopers (AI defenders) alongside turrets that must be defeated before a player can use the nearby bolt crank to capture the node; once the defenders are defeated, the node becomes capturable by turning the bolt crank and switches to a team's color upon capture." 
+      - "In Up Your Arsenal multiplayer, uncaptured nodes are guarded by neutral troopers (AI defenders) alongside turrets that must be defeated before a player can use the nearby bolt crank to capture the node; once the defenders are defeated, the node becomes capturable by turning the bolt crank and switches to a team's color upon capture." 
 
     base_defense_presence:
       - "In Siege mode, each base's perimeter defenses include AI-controlled troopers in addition to gatling and missile turrets; these troopers add pressure and act as additional defensive obstacles that attackers must deal with while attempting to destroy the base's power core." 

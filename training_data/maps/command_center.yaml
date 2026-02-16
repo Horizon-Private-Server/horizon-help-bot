@@ -7,7 +7,7 @@ facts:
       - "Command Center is a tiny enclosed circular arena in Dr. Nefarious's station, built for close-quarters combat with central cover and full wall-to-ceiling traversal."
 
     map_nicknames:
-      - "Command Center is commonly called 'cc'."
+      - "Command Center is sometimes called 'cc'."
 
     map_big_or_small:
       - "Command Center is a small map with no nodes, no base defenses, and no Siege-style objective systems."
