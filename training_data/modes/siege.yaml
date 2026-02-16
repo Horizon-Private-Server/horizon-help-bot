@@ -16,7 +16,7 @@ facts:
       - "Capturing nodes converts them into forward respawn locations for the controlling team and often unlocks map-specific tactical advantages such as vehicles or improved positional access toward the enemy base."
 
     base_defenses:
-      - "Each team’s base contains layered automated defenses—including gatling turrets, missile turrets, defensive NPCs, and map-specific systems—that must be neutralized before attackers can access and damage the power core."
+      - "Each team's base contains layered automated defenses—including gatling turrets, missile turrets, defensive NPCs, and map-specific systems—that must be neutralized before attackers can access and damage the power core."
 
     attrition_setting:
       - "Attrition Siege is an advanced rule variation where captured nodes additionally strengthen a team's base defenses by increasing turret durability, damage output, and overall defensive resilience."

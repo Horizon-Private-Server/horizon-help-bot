@@ -16,10 +16,10 @@ facts:
       - "A modded console is not required to connect to Horizon; unmodified PS2 systems and PCSX2 emulators can join by changing network configuration DNS settings." 
 
     horizon_connection_instructions:
-      - "To connect to Horizon, players create or edit a PS2 network configuration and set the primary DNS to Horizon’s provided server address, which reroutes authentication and matchmaking traffic." 
+      - "To connect to Horizon, players create or edit a PS2 network configuration and set the primary DNS to Horizon's provided server address, which reroutes authentication and matchmaking traffic." 
 
     horizon_pcsx2_support:
-      - "PCSX2 supports Horizon connectivity by configuring emulator network settings to use Horizon’s DNS, enabling online matchmaking on PC." 
+      - "PCSX2 supports Horizon connectivity by configuring emulator network settings to use Horizon's DNS, enabling online matchmaking on PC." 
 
     horizon_supported_games:
       - "Horizon supports Ratchet & Clank: Up Your Arsenal and Ratchet: Deadlocked/Gladiator, with UYA being one of its primary active multiplayer communities." 
@@ -52,4 +52,4 @@ facts:
       - "Horizon functions as a DNS-based private server replacement for discontinued official online services, allowing UYA multiplayer to remain playable today on original hardware and emulators." 
 
     horizon_uya_multiplayer_access_today:
-      - "UYA multiplayer remains actively accessible through Horizon’s DNS redirection infrastructure, providing matchmaking, stat tracking, and community-run server stability."
+      - "UYA multiplayer remains actively accessible through Horizon's DNS redirection infrastructure, providing matchmaking, stat tracking, and community-run server stability."
