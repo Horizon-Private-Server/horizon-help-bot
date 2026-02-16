@@ -1,0 +1,34 @@
+facts:
+  params:
+    npc: "Shock Droid"
+
+  entries:
+    npc_identity:
+      - "Shock Droids are autonomous AI base-defense NPCs in UYA multiplayer that spawn from Shock Droid Makers and act as persistent perimeter pressure against attackers."
+
+    npc_spawn_source:
+      - "Shock Droids automatically spawn from active base Shock Droid Makers, making their presence part of base defense state rather than node control."
+
+    npc_scope_of_defense:
+      - "Shock Droids are localized base defenders that increase the cost of entering base perimeter fights and do not defend nodes."
+
+    npc_targeting_behavior:
+      - "Shock Droids pressure nearby accessible intruders at short range, contributing most when enemies fight within their engagement radius."
+
+    npc_attack_profile:
+      - "Shock Droids deal contact-style chip damage that scales with numbers, creating cumulative health and attention drain during base dives."
+
+    npc_survivability_profile:
+      - "Shock Droids are relatively fragile disposable defenders whose value comes from time and focus tax rather than durability."
+
+    npc_tactical_role:
+      - "Shock Droids reinforce base holds by forcing attacker target switching and punishing unsupported solo entries into defended space."
+
+    npc_synergy_with_base_defenses:
+      - "Shock Droids screen for heavier base defenses by distracting attackers, buying time for turrets or fixed defenses to deal damage and deny routes."
+
+    npc_counterplay_principles:
+      - "Counterplay is to clear Shock Droids quickly with fast or area damage and coordinate pushes so their stacked distraction does not accumulate."
+
+    npc_limitations:
+      - "Shock Droids provide only local supplemental base pressure, cannot be repositioned by players, and do not create independent map-wide control."

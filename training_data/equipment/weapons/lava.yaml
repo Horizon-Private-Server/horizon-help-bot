@@ -16,7 +16,7 @@ facts:
       - "The Lava Gun has a 250-unit fuel-based ammo reserve that drains continuously while firing, requiring controlled bursts to conserve supply."
 
     weapon_multi_target_utility:
-      - "Although not an explosive AoE weapon, the Lava Gun’s beam can damage multiple tightly grouped enemies simultaneously by sweeping through stacked targets at close range."
+      - "Although not an explosive AoE weapon, the Lava Gun's beam can damage multiple tightly grouped enemies simultaneously by sweeping through stacked targets at close range."
 
     weapon_anti_air_capability:
       - "The Lava Gun is ineffective against distant airborne targets due to limited vertical reach but can punish jumping or nearby aerial players at close range."

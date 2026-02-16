@@ -1,0 +1,19 @@
+facts:
+  params:
+    topic: "Mini turrets and automated base/node defenses in UYA multiplayer"
+
+  entries:
+    node_mini_turret_activation:
+      - "In *Up Your Arsenal* multiplayer, once a node is captured and active, it enables a mini-turret that automatically fires on nearby enemies, providing defensive fire around that node." 
+
+    node_defenses_prior_capture:
+      - "Uncaptured nodes are defended by neutral troopers and turrets that must be destroyed before the bolt crank to capture the node can be used." 
+
+    node_missile_turrets:
+      - "Some nodes also include missile turrets specifically aimed at targeting vehicles, adding a layer of automated defense beyond simple mini-turrets." 
+
+    base_gatling_turrets:
+      - "In the Siege mode of UYA multiplayer, each team base is protected by gatling turrets as part of its automatic defenses that must be destroyed to advance into the base." 
+
+    base_turret_repair:
+      - "If the automated turrets defending a team's base are destroyed during a match, they can be repaired by crank interaction inside the base, restoring that defensive layer." 

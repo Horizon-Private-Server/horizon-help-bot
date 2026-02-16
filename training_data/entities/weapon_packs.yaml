@@ -1,0 +1,16 @@
+facts:
+  params:
+    topic: "Weapon Packs in Up Your Arsenal Multiplayer"
+
+  entries:
+    weapon_pack_drops:
+      - "In *Ratchet & Clank: Up Your Arsenal* multiplayer, when a player is killed, they drop a weapon pack containing all the weapons they currently carried and upgraded, allowing other players to pick up and use that full arsenal." 
+
+    weapon_pack_mechanics:
+      - "Weapon packs act as a transfer of a fallen player's arsenal — ammo and weapon upgrades come with the pack — making weapon drops both tactical fuel and a reward for successful engagements." 
+
+    multiplayer_weapon_list:
+      - "The multiplayer mode's weapon packs can contain any of the curated set of weapons available on the map, including the N60 Storm, Blitz Gun, Gravity Bomb, Minirocket Tube, Lava Gun, Flux Rifle, Morph-o-Ray, and Mine Glove, with defensive tools like the Holoshield Glove also dropping." 
+
+    weapon_upgrades_in_packs:
+      - "Weapons in multiplayer automatically upgrade after scoring three kills with them; if a player drops a weapon pack after such upgrades have occurred, the upgraded version of the weapon is part of the dropped arsenal." 

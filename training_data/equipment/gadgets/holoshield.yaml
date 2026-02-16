@@ -7,7 +7,7 @@ facts:
       - "The Holoshield blocks enemy fire and movement from the front while allowing friendly players and projectiles to pass from behind; it remains active until its damage threshold or time limit is reached and can be destroyed by sustained gunfire or high-damage explosives."
 
     holoshield_combat_interactions:
-      - "Holoshields enable protected actions such as sniping with a Flux Rifle, shielding a flag carrier’s escape, or covering teammates during node captures by blocking incoming enemy fire."
+      - "Holoshields enable protected actions such as sniping with a Flux Rifle, shielding a flag carrier's escape, or covering teammates during node captures by blocking incoming enemy fire."
 
     holoshield_upgrade_status:
       - "The Holoshield Glove has no upgrade path—there is no V2 version, and its effectiveness does not change with kills or assists."

@@ -1,0 +1,20 @@
+facts:
+  params:
+    game: "Ratchet & Clank: Up Your Arsenal"
+    context: "Multiplayer weapon crates"
+
+  entries:
+    crate_function:
+      - "In UYA multiplayer, weapon crates are destructible containers scattered around the map that, when destroyed, provide players with one of the multiplayer's selectable weapons beyond the default Storm."
+
+    weapon_acquisition:
+      - "Players begin each life with only the N60 Storm (unless other game settings are set) and must seek out and smash weapon crates across multiplayer maps to acquire other weapons like Blitz Gun, Gravity Bomb, Minirocket Tube, Lava Gun, Flux Rifle, Morph-o-Ray, Mine Glove, or the Holoshield Glove."
+
+    crate_placement:
+      - "Weapon crates are positioned strategically around multiplayer arenas to encourage movement and map control, with some near nodes or tactical chokepoints, incentivizing players to engage rather than stay at base."
+
+    weapon_balance:
+      - "Weapons obtained from crates typically have limited ammo compared to single-player versions, keeping multiplayer combat balanced and making crate control and pickup timing important for gaining an advantage."
+
+    weapon_drop_on_death:
+      - "When a player is killed, they drop a weapon pack containing all weapons collected (via crates), allowing opponents to pick up the dropped arsenal, making crate control dynamic during matches."

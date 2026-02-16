@@ -4,13 +4,13 @@ facts:
       - "Nodes are capturable control points in UYA multiplayer that, once taken, provide team resources such as spawn locations, weapons, ammo, vehicles, or defensive support, making them key strategic assets."
 
     node_capture_mechanics:
-      - "To capture a node, players must destroy its neutral or enemy AI defenses (turrets and NPCs) and then activate the bolt crank, converting the node to their team’s control."
+      - "To capture a node, players must destroy its neutral or enemy AI defenses (turrets and NPCs) and then activate the bolt crank, converting the node to their team's control."
 
     node_defense_before_capture:
       - "Uncaptured nodes are protected by neutral automated turrets and sometimes NPC defenders, which must be cleared before the node can be captured."
 
     node_state_change_on_capture:
-      - "When captured, a node changes to the team’s color and activates as a functional hub, enabling respawns and potentially dispensing weapons, vehicles, or other resources."
+      - "When captured, a node changes to the team's color and activates as a functional hub, enabling respawns and potentially dispensing weapons, vehicles, or other resources."
 
     node_resource_provision:
       - "Depending on the map and node type, captured nodes can supply resources such as weapons, ammunition, drone bots, or vehicles."
@@ -22,7 +22,7 @@ facts:
       - "Controlling nodes allows teams to respawn closer to contested areas, reducing downtime and enabling faster re-entry into combat."
 
     node_strategic_value:
-      - "Nodes function as forward control hubs that improve map presence, sustain offensive pressure, and enhance a team’s ability to hold territory."
+      - "Nodes function as forward control hubs that improve map presence, sustain offensive pressure, and enhance a team's ability to hold territory."
 
     node_denial_penalty:
       - "If a team loses all nodes, they are forced to respawn only at base, increasing travel time to objectives and reducing their ability to contest the map effectively."

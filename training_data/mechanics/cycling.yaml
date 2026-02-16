@@ -1,0 +1,34 @@
+facts:
+  params:
+    mechanic: "Weapon Cycling"
+
+  entries:
+    mechanic_identity:
+      - "Weapon cycling in UYA multiplayer is a player-developed combat technique where a player fires a shot, immediately swaps weapons, and fires again to bypass individual weapon fire delays and chain damage more rapidly than single-weapon sustained fire."
+
+    mechanic_core_principle:
+      - "The technique exploits the fact that weapon cooldown, pump, or bolt animations are tied to the active weapon state, allowing players to reset firing cadence by swapping to another weapon instead of waiting for the original weapon's recovery animation."
+
+    mechanic_execution_input:
+      - "Players execute weapon cycling by using the quick-select swap function (typically triangle cycling or D-pad mapped quick slots) to instantly switch weapons between shots without opening the full weapon wheel."
+
+    mechanic_fire_rate_advantage:
+      - "By alternating high-damage single-shot weapons such as the Flux Rifle or Shotgun-class weapons, players can effectively increase burst damage output compared to waiting for each weapon's natural refire delay."
+
+    mechanic_combo_applications:
+      - "Weapon cycling enables high-damage combo strings such as Flux shot into Blitz Gun blast or Gravity Bomb splash into immediate follow-up hits, creating lethal burst windows before the opponent can react."
+
+    mechanic_skill_requirement:
+      - "The technique requires high mechanical speed and muscle memory, as mistimed swaps or delayed inputs negate the advantage and reduce total DPS."
+
+    mechanic_meta_usage:
+      - "In competitive UYA multiplayer lobbies, advanced players use weapon cycling as part of close-quarters dueling and mid-range burst engagements rather than for sustained long-range suppression."
+
+    mechanic_limitations:
+      - "Weapon cycling does not alter intrinsic weapon damage values or coded fire-rate stats, and its effectiveness depends entirely on manual swap speed and server latency conditions."
+
+    mechanic_latency_interaction:
+      - "Online latency can either amplify or hinder weapon cycling effectiveness, as client-side shot registration combined with fast swaps can create perceived rapid burst damage on opponents."
+
+    mechanic_distinction_from_singleplayer:
+      - "Weapon cycling in multiplayer is unrelated to the single-player 'Cycling Weapons' challenge mode, as multiplayer cycling is entirely player-driven and not an enforced gameplay modifier."

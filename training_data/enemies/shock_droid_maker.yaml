@@ -1,0 +1,28 @@
+facts:
+  params:
+    defense: "Shock Droid Maker"
+
+  entries:
+    defense_identity:
+      - "Shock Droid Makers are fixed built-in base-defense structures in UYA multiplayer that generate disposable Shock Droids over time to sustain defensive pressure."
+
+    defense_positioning_rules:
+      - "Shock Droid Makers occupy static predefined base locations and cannot be moved by players, so counterplay depends on route planning, timing, and cleanup."
+
+    defense_function:
+      - "Their function is periodic Shock Droid production that converts time into ongoing local base defense as long as the maker remains active."
+
+    defense_relationship_to_shock_droids:
+      - "Recurring Shock Droids indicate active Shock Droid Makers, so clearing droids addresses immediate pressure while addressing the maker source reduces repeated spawns when the ruleset permits interaction."
+
+    defense_combat_role:
+      - "Shock Droid Makers act as base-defense force multipliers by continuously adding close-range hostile units, especially during prolonged base fights."
+
+    defense_pressure_pattern:
+      - "Maker pressure scales with fight duration by adding ambient threats that divide attacker attention and create openings for heavier defenses."
+
+    defense_counterplay_principles:
+      - "Effective counterplay uses fast coordinated pushes, disciplined early droid clears, and pathing that minimizes time in maker-heavy zones."
+
+    defense_limitations:
+      - "Shock Droid Makers provide localized supplemental base pressure rather than map-wide control and are most effective when paired with other defenses."

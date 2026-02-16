@@ -1,0 +1,19 @@
+facts:
+  params:
+    mechanic: "Lag Jumping"
+
+  entries:
+    definition:
+      - "Lag Jumping in Ratchet & Clank: Up Your Arsenal multiplayer refers to a player-performed jump/movement exploit tied to network lag or desync, where timing of button inputs causes Ratchet (or another character) to gain unintended height or altered trajectory not typical of standard jumping behavior." 
+
+    player_community_usage:
+      - "The term lag jumping has been used in UYA multiplayer discussions and was noted among players in higher level matches alongside weapon switching and standard glitches, indicating it was recognized as a movement trick or exploit in competitive online play." 
+
+    input_method:
+      - "According to community posts, performing a lag jump involves holding or double-tapping the R2 button and sometimes the X button on the PS2 controller, with timing adjusted based on perceived lag or physics misalignment in the match." 
+
+    speedrun_relevance:
+      - "In speedrun and trick tutorials for UYA, lag jumps are categorized alongside side-flips, falling lag jumps, and Charge Boot lag jumps, suggesting they are used in advanced movement strategies to traverse levels or gain height in unintended ways." 
+
+    distinction:
+      - "Lag jumping differs from standard in-engine jumps because it exploits timing and desync to exceed normal jump height or distance, and is often only reliably performed in multiplayer or specific lag conditions rather than in controlled single-player play." 

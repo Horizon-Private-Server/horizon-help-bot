@@ -1,0 +1,19 @@
+facts:
+  params:
+    mechanic: "Teleporters in Up Your Arsenal multiplayer"
+
+  entries:
+    mechanic_description:
+      - "In *Ratchet & Clank: Up Your Arsenal* teleporters are green pads that instantly send a player to a linked teleporter pad; they function the same general way as in other games in the series, though with a new appearance and particle effects when used." 
+
+    multiplayer_context:
+      - "The game's online multiplayer supports up to eight players in modes like Deathmatch, Capture the Flag, and Siege, where multiplayer combat and objectives play out on maps derived from the single-player campaign." 
+
+    siege_role:
+      - "In Siege mode — the primary team-based objective mode — teleporters allow a team to enter the enemy base interior after they have destroyed the enemy's outer base defenses (especially both gatling turrets), enabling them to assault and destroy the power core to achieve victory." 
+
+    teleporter_dependencies:
+      - "Teleporters require a linked sister pad to function and appear to have a limited range, meaning they must be properly paired on maps to serve as valid transportation points for players." 
+
+    strategic_use:
+      - "In online Siege matches, teleporters serve as critical transition points once a team breaks through outer defenses, effectively bridging the objective from capturing nodes and field combat into the final stage within the enemy base." 

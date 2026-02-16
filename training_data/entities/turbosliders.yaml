@@ -1,0 +1,25 @@
+facts:
+  params:
+    vehicle: "Turboslider"
+
+  entries:
+    vehicle_identity:
+      - "The Turboslider is a fast ground vehicle (buggy) in Ratchet & Clank: Up Your Arsenal used for traversal and combat, available in both single-player and multiplayer modes."
+
+    vehicle_weapon_system:
+      - "In multiplayer, the Turboslider features a forward-facing machine gun for the driver and a rear-mounted turret for a second player to operate, supporting two players per vehicle."
+
+    vehicle_capacity:
+      - "The Turboslider can hold up to two players in multiplayer: one drives while the other mans the rear turret."
+
+    vehicle_mobility_profile:
+      - "The Turboslider is notably fast and excels at navigating large open areas quickly as a ground traversal vehicle."
+
+    vehicle_multiplayer_presence:
+      - "Vehicles like the Turboslider are available on certain multiplayer maps after capturing strategic nodes."
+
+    vehicle_offensive_role:
+      - "Because of its machine gun and turret, the Turboslider provides offensive capabilities to support ground assaults, though it is lighter armed compared to the heavier Hovership."
+
+    vehicle_spawn_mechanics:
+      - "On multiplayer maps the Turboslider becomes accessible by capturing nodes that unlock vehicle spawn points."

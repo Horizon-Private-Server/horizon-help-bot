@@ -1,0 +1,17 @@
+facts:
+  params:
+    vehicle: "Hovership"
+
+  entries:
+    vehicle_identity:
+      - "In Ratchet & Clank: Up Your Arsenal multiplayer, the Hovership is a slow-moving aerial vehicle that players can enter and pilot; it hovers above the ground and can be operated by two players simultaneously with one flying and firing the rocket blasters and another using the bomb launcher."
+    vehicle_weaponry:
+      - "The Hovership is equipped with forward-facing rocket blasters for the driver and a bomb launcher for a second passenger, allowing it to provide airborne fire support and aerial bombardment in matches."
+    vehicle_map_presence:
+      - "Hoverships appear on certain multiplayer maps, often at specific capture nodes, and securing these vehicles can provide strategic aerial control for your team."
+    vehicle_operational_use:
+      - "In Up Your Arsenal multiplayer modes, vehicles like the Hovership are captured by controlling the associated node, after which players can hop inside to use its flight and weapons for traversal and combat across the battlefield."
+    vehicle_seats:
+      - "The Hovership accommodates two players: one pilot and one gunner, which emphasizes cooperative play when using the vehicle in multiplayer matches."
+    vehicle_effectiveness:
+      - "While slower than the Turboslider, the Hovership's aerial capabilities make it advantageous for bomb runs, high-ground attacks, and punishing infantry from above, though it can also be targeted by enemy weapons."

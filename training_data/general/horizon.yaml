@@ -1,71 +1,43 @@
 facts:
   entries:
     horizon_project_definition:
-      - "Horizon is a fan-run revival server for UYA multiplayer on PS2 and emulator, replicating the original online servers."
-      - "Horizon brings back UYA multiplayer through a custom server that mimics the original PS2 experience."
-      - "Horizon recreates the official UYA servers to let fans play online again using PS2s or emulators."
+      - "Horizon is a fan-run server revival for Ratchet & Clank: Up Your Arsenal multiplayer on PS2 hardware and emulators that replicates the original online experience."
 
     horizon_technical_replication:
-      - "The Horizon team reverse-engineered the PS2 network code and developed custom server software to redirect the game to Horizon servers."
-      - "Horizon works by rewriting the network backend and redirecting traffic to its own server infrastructure."
-      - "They replicated the PS2 online environment by reverse-engineering the original code and hosting custom servers."
+      - "Horizon reverse-engineered the PS2 network code and built custom backend infrastructure that redirects game traffic to Horizon servers."
 
     horizon_launch_date:
       - "Horizon launched for public testing on February 14, 2021."
-      - "The Horizon project went live on February 14, 2021."
-      - "Public access to Horizon began on February 14, 2021."
 
     horizon_connection_requirements:
-      - "No, unmodified consoles and PCSX2 emulator can connect by editing the network configuration."
-      - "You don’t need a modded PS2; a standard console or emulator can connect to Horizon."
-      - "Unmodded PS2s and PCSX2 users can join Horizon with simple DNS changes."
+      - "A modded console is not required; unmodified PS2 consoles and PCSX2 can connect by changing network configuration settings."
 
     horizon_connection_instructions:
-      - "Create or edit a Network Configuration file and set the primary DNS to Horizon’s provided IP."
-      - "To connect, configure your DNS settings to use Horizon's server IP."
-      - "Join Horizon by modifying the network settings and pointing the DNS to the Horizon address."
+      - "To connect, create or edit a network configuration and set the primary DNS to Horizon's provided server IP."
 
     horizon_pcsx2_support:
-      - "Yes, by setting the DNS to Horizon’s server."
-      - "PCSX2 users can connect by configuring DNS."
-      - "PCSX2 supports Horizon through DNS changes."
+      - "PCSX2 is supported by configuring DNS to Horizon's server."
 
     horizon_clan_support:
-      - "Yes, clan support has been restored or improved over time."
-      - "Clans are supported on Horizon, with ongoing updates to improve functionality."
-      - "Horizon allows clan creation and participation just like the original servers."
+      - "Horizon supports clans, with functionality restored and improved over time."
 
     horizon_leaderboard_support:
-      - "Yes, Horizon replicates stat tracking similar to the original game."
-      - "Horizon tracks stats and supports leaderboards."
-      - "Players' performance is recorded on Horizon leaderboards."
+      - "Horizon supports stat tracking and leaderboards similar to the original game."
 
     horizon_custom_features:
-      - "Horizon adds mods, multiplayer bots, custom maps, colored clan tags, and lobby upgrades."
-      - "Features include mods, bots, new maps, and enhanced lobbies."
-      - "Custom content on Horizon includes mods, maps, bots, and UI improvements."
+      - "Horizon adds mods, multiplayer bots, custom maps, colored clan tags, and upgraded lobbies."
 
     horizon_custom_maps:
-      - "Yes, including single-player areas ported to multiplayer like Daxx."
-      - "Horizon supports multiplayer maps converted from campaign levels."
-      - "Custom multiplayer maps, such as Daxx, are available on Horizon."
+      - "Horizon supports custom multiplayer maps, including campaign areas ported to multiplayer such as Daxx."
 
     horizon_help_resources:
-      - "Players can join the Horizon Discord or consult the Horizon GitHub wiki."
-      - "Help is available through the Discord server and project wiki."
-      - "Support and documentation are provided via Discord and GitHub."
+      - "Players can get support and documentation through the Horizon Discord and GitHub wiki."
 
     horizon_private_server_status:
-      - "Fan projects like Horizon resurrect online play via custom servers and DNS redirects for PS2 hardware or emulators."
-      - "Custom servers like Horizon let players enjoy UYA multiplayer today."
-      - "Private servers allow UYA online play through DNS tricks and custom backends."
+      - "Fan projects like Horizon restore UYA online play through custom servers and DNS redirection for PS2 hardware and emulators."
 
     horizon_uya_multiplayer_access_today:
-      - "Community servers such as Horizon redirect the game via custom DNS, letting original hardware and emulators connect; Horizon also adds stability features and stat-tracking bots."
-      - "Players still access UYA multiplayer using fan DNS services like Horizon, which also adds features like bots and stat tracking."
-      - "UYA multiplayer works today through DNS redirection to community servers like Horizon."
+      - "UYA multiplayer is currently accessible through community DNS redirection services like Horizon on original hardware and emulators, with added stability features and stat-tracking bots."
 
     horizon_version_compatibility:
-      - "Horizon supports NTSC-U and PAL versions of UYA; PS3 HD versions are not supported."
-      - "Only PS2 disc versions (NTSC and PAL) are supported—PS3 HD is not compatible with Horizon."
-      - "Horizon works with original PS2 copies, not with the PS3 remaster."
+      - "Horizon supports NTSC-U and PAL PS2 versions of UYA and does not support the PS3 HD release."

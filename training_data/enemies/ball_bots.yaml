@@ -1,0 +1,16 @@
+facts:
+  params:
+    npc: "Ball Bot"
+
+  entries:
+    npc_identity:
+      - "In *Ratchet & Clank: Up Your Arsenal* multiplayer Siege mode, certain base defenses include fast-moving hostile rolling robots — often perceived by players as 'ball bots' — that automatically engage approaching enemies as part of a base's defensive layout." 
+
+    base_defense_behavior:
+      - "These rolling defense units are part of the static base defenses placed around the team base in Siege, acting like heat-seeking ground threats that move quickly toward players entering the base area to disrupt assaults on core objectives." 
+
+    spawn_mechanics:
+      - "These ball-like defenses are spawned automatically as part of the base's built-in defensive systems; they are not player-controlled units and do not represent AI teammates or solo AI players, but scripted environmental threats." 
+
+    gameplay_impact:
+      - "Players must deal with these rollers when attempting to destroy the enemy team's base power core in Siege, as they serve as an extra layer of defense beyond turrets and troopers." 

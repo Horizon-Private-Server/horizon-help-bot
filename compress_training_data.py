@@ -8,6 +8,20 @@ from typing import Any, Dict, Iterable, List
 import yaml
 
 
+SMART_QUOTES_MAP = {
+    "\u2018": "'",  # ‘ left single quote
+    "\u2019": "'",  # ’ right single quote
+}
+
+
+def normalize_quotes(text: str) -> str:
+    # Fast, explicit replacement (avoids translating other punctuation).
+    for bad, good in SMART_QUOTES_MAP.items():
+        if bad in text:
+            text = text.replace(bad, good)
+    return text
+
+
 def iter_yaml_files(root: Path) -> Iterable[Path]:
     for path in sorted(root.rglob("*.yaml")):
         if path.name == "fact_types.yaml":
@@ -52,6 +66,7 @@ def build_records(input_dir: Path, ingested_at: str) -> List[Dict[str, Any]]:
             for idx, text in enumerate(variants):
                 if not isinstance(text, str):
                     continue
+                text = normalize_quotes(text)
                 records.append(
                     {
                         "id": make_id(rel_path, entry_key, idx),
@@ -84,7 +99,7 @@ def build_fact_lines(input_dir: Path) -> List[str]:
             for text in variants:
                 if not isinstance(text, str):
                     continue
-                lines.append(text)
+                lines.append(normalize_quotes(text))
     return lines
 
 

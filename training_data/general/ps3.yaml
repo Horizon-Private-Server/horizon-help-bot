@@ -1,82 +1,49 @@
 facts:
   entries:
     ps3_ps2_gameplay_equivalence:
-      - "While gameplay was identical, the PS3 version suffered more from visual bugs, lag, and rubberbanding."
-      - "PS3 multiplayer introduced instability issues like teleporting movement and desynced animations."
-      - "Compared to PS2, the PS3 version had more frequent frame drops, stuttering, and online lag."
-      - "Despite being a direct port, PS3 multiplayer had more visual glitches and network-related jank."
+      - "PS3 gameplay was otherwise identical to PS2 but had more visual bugs, frame drops, stuttering, lag, rubberbanding, teleporting movement, and animation desync in multiplayer."
 
     ps3_online_profiles:
-      - "The game used the PlayStation Network ID automatically, removing the need for separate in-game profiles."
-      - "PS3 players logged in with their PSN accounts instead of creating in-game profiles."
-      - "Online profiles were tied to PSN, so no manual profile creation was needed on PS3."
+      - "PS3 multiplayer used the player's PlayStation Network ID automatically, so no separate in-game profile creation was required."
 
     ps3_server_shutdown_date:
-      - "The PS3 servers shut down on February 15, 2018."
-      - "Online play for the PS3 version ended on February 15, 2018."
-      - "Sony shut down the PS3 UYA servers on 2018-02-15."
+      - "PS3 online servers shut down on February 15, 2018."
 
     ps3_post_shutdown_multiplayer_status:
-      - "The PS2 version was revived by fan-made servers; the PS3 version remains offline."
-      - "PS2 multiplayer is available via private servers, but PS3 online remains inactive."
-      - "Fan servers restored PS2 access, but the PS3 version was never revived."
+      - "After shutdown, PS2 multiplayer was revived via fan-run private servers, but PS3 multiplayer remains offline."
 
     ps3_split_screen_player_count:
-      - "Both PS2 and PS3 supported up to four-player split-screen."
-      - "Split-screen supported 2–4 players on both consoles."
-      - "Local multiplayer allowed up to 4 players on one console for both versions."
+      - "Both PS2 and PS3 support local split-screen multiplayer for up to four players."
 
     ps3_split_screen_performance_difference:
-      - "The PS2 had lower performance and smaller screen splits, while the PS3 had better resolution and framerate."
-      - "PS3 split-screen offered smoother framerate and larger viewports than PS2."
-      - "Split-screen ran more smoothly and clearly on PS3 due to hardware upgrades."
+      - "Compared to PS2, PS3 split-screen had smoother framerate, better resolution, and larger viewports."
 
     ps3_resolution:
-      - "The PS3 version featured 720p HD graphics in 16:9."
-      - "UYA on PS3 ran at 720p with widescreen support."
-      - "The remaster on PS3 displayed in high-definition 720p."
+      - "The PS3 version runs in 720p HD with 16:9 widescreen."
 
     ps3_texture_improvements:
-      - "The PS3 version had cleaned-up textures and minor UI adjustments."
-      - "Textures and interface elements were lightly polished for the HD re-release."
-      - "While gameplay remained the same, textures and UI were slightly enhanced on PS3."
+      - "The PS3 release kept gameplay unchanged but added minor texture cleanup and small UI polish."
 
     ps3_audio_quality:
-      - "The PS3 had slightly better sound and clearer voice chat due to modern Bluetooth headsets."
-      - "Audio quality improved mildly on PS3, especially in voice communications."
-      - "PS3 sound was clearer thanks to Bluetooth and updated codecs."
+      - "PS3 audio quality was slightly clearer, especially voice chat, due to newer Bluetooth headset support and codecs."
 
     ps3_gameplay_changes:
-      - "No gameplay or balance changes were made; it was a direct port."
-      - "The PS3 version retained identical gameplay without rebalancing."
-      - "The remaster made no mechanical adjustments—just visual improvements."
+      - "The PS3 release made no gameplay or balance changes and remained a direct port."
 
     ps3_clan_support:
-      - "The PS3 version had limited or no clan support because Insomniac’s website was shut down."
-      - "Clan features were missing or broken on PS3 due to external service deprecation."
-      - "The clan system was disabled in the HD version since Insomniac.net was offline."
+      - "PS3 clan functionality was limited or unavailable because supporting Insomniac web services were shut down."
 
     ps3_friend_invites:
-      - "Players used their PSN friends list to join or invite friends."
-      - "Friend invites were handled through the PlayStation Network interface."
-      - "The game relied on PSN friend lists for multiplayer coordination."
+      - "PS3 multiplayer friend invites and joins used the PlayStation Network friends list."
 
     ps3_official_server_shutdown_dates:
-      - "PS2 servers shut down June 6, 2012. PS3 re-release servers shut down February 15, 2018."
-      - "Sony disabled the PS2 servers in 2012 and closed the PS3 servers in 2018."
-      - "Multiplayer officially ended for PS2 in mid-2012, and for PS3 in early 2018."
+      - "Official servers shut down on June 6, 2012 for PS2 and February 15, 2018 for PS3."
 
     ps3_profile_handling_comparison:
-      - "PS2 required an in-game online profile; the PS3 HD port used the player’s PSN account automatically for multiplayer login."
-      - "The PS2 version used manual profiles, while PS3 automatically logged in through PSN."
-      - "Players had to create online profiles on PS2, but PS3 handled it through PSN accounts."
+      - "PS2 required manual in-game online profiles, while PS3 logged players in through their PSN accounts."
 
     ps3_current_online_play_options:
-      - "Official PS2/PS3 servers closed in 2012; today players connect through fan-run private servers via custom DNS or emulators."
-      - "Modern multiplayer is available only through community-run PS2 servers like Horizon."
-      - "Private servers allow online play today using DNS redirection with emulators or unmodded PS2 consoles."
+      - "Official PS2 and PS3 servers are closed, and current multiplayer is available through community-run PS2 private servers using custom DNS on PS2 hardware or emulators."
 
     ps3_hd_collection_server_history:
-      - "The 2012 PS3 HD release briefly revived online play, but those servers were shut down in 2013, leaving modern multiplayer solely to fan-hosted PS2/emulator servers."
-      - "Online servers in the PS3 HD collection went offline in 2013, with no replacements."
-      - "PS3 multiplayer returned briefly in 2012, then vanished permanently when those servers were shut down a year later."
+      - "The 2012 PS3 HD Collection briefly restored online multiplayer, but its servers shut down in 2013 and were not replaced, leaving modern play to fan-hosted PS2/emulator servers."

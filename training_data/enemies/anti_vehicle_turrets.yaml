@@ -1,0 +1,19 @@
+facts:
+  params:
+    mechanic: "Ground Anti-Vehicle Turrets"
+
+  entries:
+    turret_function:
+      - "Ground anti-vehicle turrets are node-attached defense mechanisms in Ratchet & Clank: Up Your Arsenal multiplayer that specifically target only vehicles — they do not shoot at infantry players."
+
+    turret_targets:
+      - "These turrets exclusively engage large player-controlled vehicles such as Turbosliders and Hoverships, firing missiles to disrupt vehicle advancement around key nodes."
+
+    turret_placement:
+      - "Anti-vehicle turrets appear on certain multiplayer nodes; their presence creates strategic hazards for teams attempting to capture or travel through those nodes using vehicles."
+
+    tactical_implications:
+      - "Because these turrets do not target infantry, effective strategy can involve dismounting vehicles to approach protected nodes on foot or prioritizing turret destruction before re-entering vehicles."
+
+    gameplay_role:
+      - "The purpose of ground anti-vehicle turrets is to provide node defense specifically against mechanized transport, adding a layer of strategic objective control in multiplayer modes like Siege."

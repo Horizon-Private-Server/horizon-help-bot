@@ -1,0 +1,15 @@
+facts:
+  topic: "Anti-air hover ship defenses in Up Your Arsenal multiplayer"
+
+  entries:
+    base_defenses_spawn:
+      - "In *Ratchet & Clank: Up Your Arsenal* multiplayer, each team base automatically spawns static defensive turrets at the beginning of Siege and Capture the Flag matches, including gatling turrets and missile turrets that guard the base approaches and power core. These defenses are present from match start and do not require player activation. "
+
+    anti_air_role:
+      - "Although not described as separate 'anti-air ships,' the base defenses (including missile turrets) act as anti-aircraft threats by firing at nearby enemy vehicles such as hoverships when they get close to the base. Players commonly report that hoverships are targeted by base turrets when attacking from above, making turret destruction a key step before aerial assaults. "
+
+    siege_defense_mechanics:
+      - "In Siege mode, teams must first destroy the defensive gatling turrets protecting the enemy base's exterior; only after these defenses are down can players teleport inside for the final assault on the power core. These defensive turrets fire at all hostile forces within range, including airborne threats. "
+
+    vehicle_tactics_against_turrets:
+      - "Guide discussions note that players often use hovership bombing or sniping from high ground to engage enemy base turrets, since these static defenses will fire on the hovership if it stays too close without the turrets being destroyed. This tactical behavior underscores the anti-air function of base defenses. "
