@@ -1,31 +1,19 @@
 facts:
   entries:
     holoshield_identity:
-      - "The Holoshield Glove is a deployable gadget that creates a stationary, transparent energy shield used for defense."
-      - "It projects a barrier that blocks enemy fire while allowing friendly players and projectiles to pass through."
-      - "The Holoshield is a non-damaging gadget used to create protective cover during combat or objectives."
+      - "The Holoshield Glove is a deployable, stationary defensive gadget that projects a transparent energy barrier, providing protective cover during combat or objective play."
 
     holoshield_mechanics:
-      - "The Holoshield blocks all enemy fire and movement from the front but allows friendly fire and movement from behind."
-      - "It stays active until it absorbs a set amount of damage or expires after a fixed time."
-      - "It can be destroyed by concentrated gunfire, explosive weapons, or high-damage pressure like Gravity Bombs or rockets."
+      - "The Holoshield blocks enemy fire and movement from the front while allowing friendly players and projectiles to pass from behind; it remains active until its damage threshold or time limit is reached and can be destroyed by sustained gunfire or high-damage explosives."
 
     holoshield_combat_interactions:
-      - "Using a Flux Rifle behind a Holoshield allows players to snipe while protected, forcing enemies to destroy the shield first."
-      - "A flag carrier can drop a Holoshield to block enemy shots while escaping with the flag."
-      - "During a node capture, a teammate can deploy a Holoshield to shield the crank while under fire."
+      - "Holoshields enable protected actions such as sniping with a Flux Rifle, shielding a flag carrier’s escape, or covering teammates during node captures by blocking incoming enemy fire."
 
     holoshield_upgrade_status:
-      - "The Holoshield Glove does not upgrade—there is no V2 version."
-      - "Kills or assists do not improve the Holoshield; it has fixed stats regardless of use."
-      - "There is no upgrade mechanic for Holoshields in multiplayer."
+      - "The Holoshield Glove has no upgrade path—there is no V2 version, and its effectiveness does not change with kills or assists."
 
     holoshield_classification:
-      - "The Holoshield is a gadget, not a weapon, but it is acquired from weapon crates and uses a weapon slot."
-      - "It does not deal damage and serves only as a defensive tool."
-      - "Despite being non-lethal, the Holoshield is picked up like other weapons and occupies one inventory slot."
+      - "The Holoshield is a non-lethal gadget rather than a weapon, but it is obtained from weapon crates and occupies a weapon inventory slot despite dealing no damage."
 
     holoshield_meta_usage:
-      - "In competitive play, Holoshields are valued for controlling choke points and shielding objective interactions."
-      - "High-level teams use Holoshields to delay pushes, cover revives, or block damage during coordinated attacks."
-      - "Teams prioritize Holoshield crates early and assign them to players who excel at timing and positioning."
+      - "In competitive play, Holoshields are strategically used to control choke points, delay enemy pushes, and protect objective interactions, with teams often prioritizing early acquisition and assigning them to players skilled in timing and positioning."

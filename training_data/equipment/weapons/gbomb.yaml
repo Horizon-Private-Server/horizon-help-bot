@@ -4,66 +4,40 @@ facts:
 
   entries:
     weapon_identity:
-      - "The Gravity Bomb is a grenade launcher that fires slow, arcing explosive rounds which deal high splash (area-of-effect) damage."
-      - "It’s a heavy explosive launcher designed to damage groups and deny space with wide-area blasts."
-      - "The Gravity Bomb is UYA’s arc-fire splash weapon, useful for indirect attacks and suppression."
+      - "The Gravity Bomb is an arc-firing grenade launcher in UYA that delivers slow explosive projectiles with high splash damage for indirect attacks, area denial, and group suppression."
 
     weapon_nickname:
-      - "Players commonly refer to the Gravity Bomb as 'grav' or 'gbomb'."
-      - "The Gravity Bomb is often abbreviated as 'grav' or 'gbomb' in team communication."
-      - "'Grav' or 'gbomb' is the informal shorthand for Gravity Bomb used in multiplayer."
+      - "The Gravity Bomb is commonly abbreviated as 'grav' or 'gbomb' in multiplayer communication."
 
     weapon_damage_behavior:
-      - "It deals very high area damage, effective against groups of enemies or those behind cover."
-      - "The Gravity Bomb’s splash radius makes it deadly without needing direct hits."
-      - "Enemies hit near the blast center take significant damage, often fatal in tight groups."
+      - "It deals very high area-of-effect damage with lethal potential near the blast center, making it effective against grouped enemies or targets behind cover without requiring direct hits."
 
     weapon_ammo_capacity:
-      - "The Gravity Bomb holds 8 rounds per full ammo supply."
-      - "It fires one grenade per shot, with a maximum of 8 shots per pickup."
-      - "With only 8 rounds, shots must be timed and aimed carefully due to the slow fire rate."
+      - "The Gravity Bomb carries 8 rounds per full ammo supply, firing one grenade per shot and requiring deliberate timing due to limited ammo and a slow fire rate."
 
     weapon_multi_target_utility:
-      - "Its high splash damage can injure or kill multiple enemies, even without direct hits."
-      - "The Gravity Bomb is ideal for crowd control and hitting enemies clustered behind cover."
-      - "Its area damage can clear multiple enemies in tight spaces or narrow chokepoints."
+      - "Its splash damage allows it to injure or eliminate multiple clustered enemies simultaneously, making it effective for crowd control in tight spaces and chokepoints."
 
     weapon_anti_air_capability:
-      - "Due to its arc and slow speed, it’s ineffective against fast-moving airborne targets."
-      - "The Gravity Bomb is not well-suited for anti-air roles."
-      - "It’s primarily a ground weapon and rarely connects with aerial targets."
+      - "Because of its slow projectile speed and arcing trajectory, the Gravity Bomb is generally ineffective against fast airborne targets and functions primarily as a ground weapon."
 
     weapon_upgrade_mechanism:
-      - "The Gravity Bomb upgrades after 3 kill assists."
-      - "After helping eliminate 3 enemies, the weapon evolves to a stronger version."
-      - "It levels up through support-based damage contributions in multiplayer matches."
+      - "After contributing to roughly three kills or assists, the Gravity Bomb upgrades to a more powerful version through support-based combat contributions."
 
     weapon_upgrade_effects:
-      - "The upgraded version increases splash radius and damage, making it more punishing for groups."
-      - "Upgrading makes it easier to secure kills even without direct hits."
-      - "Its V2 form deals heavier damage and better clears clustered enemies."
+      - "The upgraded version increases splash radius and damage, improving its ability to secure kills and clear grouped enemies without direct impacts."
 
     weapon_defensive_role:
-      - "Players use it to deny access to key areas or cover objectives like flags and nodes."
-      - "The Gravity Bomb can lock down entrances or force enemies to take slower, safer routes."
-      - "It’s used to punish attackers entering a room or capturing an objective."
+      - "Players use the Gravity Bomb defensively to deny access to objectives, lock down entrances, and punish enemies attempting to push into controlled spaces."
 
     weapon_community_opinion:
-      - "It’s considered a high-reward support weapon for area control and suppression when used with good aim and positioning."
-      - "Competitive players value it for map control but acknowledge its risk in close duels."
-      - "It’s seen as situational but deadly when used correctly from a midline role."
+      - "It is viewed as a high-reward situational support weapon valued for area control and suppression, though riskier in direct close-range duels."
 
     weapon_usage_techniques:
-      - "Skilled users aim for chokepoints or blind corners where enemies group or retreat."
-      - "Lobbing grenades over cover or around obstacles is a common method of indirect pressure."
-      - "It’s often used to detonate mines, block paths, or flush enemies out of hiding."
+      - "Effective techniques include lobbing shots into chokepoints, around cover, or into blind corners to flush enemies, detonate mines, block paths, and apply indirect pressure."
 
     weapon_meta_role:
-      - "The Gravity Bomb serves as a mid-line support tool to break formations and apply pressure from behind the front."
-      - "It plays an area-denial role in team fights, disrupting pushes and forcing spacing."
-      - "Its function in the meta is softening defenses so teammates can breach or rotate."
+      - "In the meta, the Gravity Bomb serves as a mid-line area-denial and support weapon that disrupts formations and softens defenses for team advances."
 
     weapon_map_control_value:
-      - "Teams control the Gravity Bomb to suppress enemy movements and secure chokepoints."
-      - "Having a Gravity Bomb user enables safe mine clearing and flank denial."
-      - "Owning the weapon gives area pressure and forces the enemy team to reposition constantly."
+      - "Controlling the Gravity Bomb provides teams with sustained area pressure, mine clearing capability, chokepoint suppression, and the ability to force enemy repositioning."

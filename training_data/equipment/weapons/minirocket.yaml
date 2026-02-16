@@ -4,66 +4,40 @@ facts:
 
   entries:
     weapon_identity:
-      - "The Minirocket Tube is a portable homing rocket launcher that fires high-speed rockets capable of slightly tracking targets."
-      - "It’s a handheld launcher that deals heavy single-target damage using mildly homing projectiles."
-      - "The Minirocket Tube is UYA’s primary burst-damage weapon, known for its versatility and anti-vehicle capability."
+      - "The Minirocket Tube is a portable homing rocket launcher in UYA multiplayer that fires high-speed, mildly tracking projectiles for heavy burst damage, serving as a versatile primary anti-infantry and anti-vehicle weapon."
 
     weapon_nickname:
-      - "Players often shorten the Minirocket Tube to 'rockets'."
-      - "'Rockets' are common shorthand names used for the Minirocket Tube."
-      - "It’s frequently called 'rockets' in team callouts and strategy discussions."
+      - "Players commonly refer to the Minirocket Tube as 'rockets' in team communication and strategy discussions."
 
     weapon_damage_behavior:
-      - "It deals high direct impact damage, ideal for eliminating single targets."
-      - "Each rocket delivers strong burst damage, especially when fired in quick succession."
-      - "Impact damage is severe enough to kill players, disable turrets, and damage vehicles rapidly."
+      - "Each rocket deals high direct impact burst damage capable of killing players, disabling turrets, and rapidly damaging vehicles, especially when fired in quick succession."
 
     weapon_ammo_capacity:
-      - "The Minirocket Tube holds 15 rockets per pickup in multiplayer."
-      - "It carries 15 rounds, allowing sustained fire before needing a new crate."
-      - "Ammo runs out quickly due to its fire rate, but each shot is highly valuable."
+      - "The Minirocket Tube holds 15 rockets per multiplayer pickup, enabling short periods of sustained fire before requiring a new ammo crate."
 
     weapon_multi_target_utility:
-      - "It can damage clustered enemies with splash, though it excels at single-target elimination."
-      - "Multiple enemies can be hit with rapid successive rockets if grouped closely."
-      - "Its explosive radius allows limited multi-target impact in choke points."
+      - "Although optimized for single-target elimination, its explosive splash radius allows limited multi-target damage against clustered enemies and in choke points."
 
     weapon_anti_air_capability:
-      - "It is effective against aerial units like Hoverships due to its homing ability and high damage."
-      - "Players use it to shoot down flying or elevated targets by aiming while jumping."
-      - "Two or three hits from the Minirocket Tube are enough to destroy a Hovership."
+      - "Its mild homing and high damage make it effective against aerial units such as Hoverships, which can be destroyed in two to three hits, often by aiming while jumping to improve tracking angles."
 
     weapon_upgrade_mechanism:
-      - "After 3 kill assists, it becomes the Megarocket Cannon with faster fire rate, increased damage, and stronger homing."
-      - "The Minirocket Tube upgrades to V2 after 3 confirmed kills or assists."
-      - "It follows the standard multiplayer progression rule—upgrade after 3 combat contributions."
+      - "After three kills or assists under the standard multiplayer progression rule, the Minirocket Tube upgrades to the Megarocket Cannon (V2)."
 
     weapon_upgrade_effects:
-      - "The V2 version increases fire rate, damage, and homing strength, making it lethal at mid-range."
-      - "Upgraded rockets track harder and kill faster, allowing quick takedowns of groups or objectives."
-      - "It becomes one of the deadliest weapons, shredding infantry, vehicles, and cores alike."
+      - "The V2 Megarocket Cannon increases fire rate, damage, and homing strength, making it highly lethal at mid-range against infantry, vehicles, and objectives."
 
     weapon_defensive_role:
-      - "It’s used to destroy turrets, repel Hoverships, and deny enemy pushes from a distance."
-      - "Base defenders use it to eliminate sieging players or vehicles quickly."
-      - "Defensively, it can burst down intruders before they reach objectives."
+      - "Defensively, it is used to destroy turrets, repel Hoverships, and quickly burst down attacking players or vehicles before they reach objectives."
 
     weapon_community_opinion:
-      - "It is a top-tier weapon favored for its versatility, damage output, and upgrade potential."
-      - "Players rate it among the strongest pickups in UYA multiplayer."
-      - "Its balance of homing, burst damage, and area threat make it a priority in every match."
+      - "The Minirocket Tube is widely considered a top-tier pickup in UYA multiplayer due to its versatility, burst damage, homing capability, and strong upgrade potential."
 
     weapon_usage_techniques:
-      - "Skilled players jump while firing to improve homing angle and hit targets on uneven terrain."
-      - "Rockets are often pre-fired into common paths or corners to force movement or confirm kills."
-      - "Teams coordinate to feed rocket users kills quickly to accelerate upgrades."
+      - "Advanced techniques include jumping while firing to enhance homing angles on uneven terrain, pre-firing into common paths to secure kills or force movement, and coordinating team kills to accelerate weapon upgrades."
 
     weapon_meta_role:
-      - "It serves as a burst damage and anti-vehicle weapon, dominating mid-range encounters."
-      - "The Minirocket Tube is a key power weapon in the UYA meta, shaping team strategies around its control."
-      - "Its role is eliminating threats before they can retaliate—ideal for objective denial and aggressive holds."
+      - "Within the UYA meta, the Minirocket Tube functions as a dominant mid-range burst and anti-vehicle power weapon used for objective denial, aggressive holds, and eliminating threats before retaliation."
 
     weapon_map_control_value:
-      - "Most maps include a single rocket spawn point that teams fight over due to its power."
-      - "Controlling the Minirocket Tube crate gives a major advantage in fights and objective control."
-      - "Teams prioritize rocket access to maintain pressure and eliminate defenses efficiently."
+      - "Most maps feature a single Minirocket Tube spawn that teams contest heavily, as controlling its crate provides a significant advantage in fights, defensive pressure, and objective control."

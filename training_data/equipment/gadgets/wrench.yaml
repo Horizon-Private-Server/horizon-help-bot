@@ -1,21 +1,13 @@
 facts:
   entries:
     wrench_melee_weapon_identity:
-      - "Yes, all players are equipped with the OmniWrench for close-range combat and crate destruction."
-      - "Every player spawns with the OmniWrench, a standard melee tool used for attacks and breaking crates."
-      - "The OmniWrench serves as the default melee weapon in UYA multiplayer."
+      - "All players spawn with the OmniWrench, the default melee weapon used for close-range combat and crate destruction in UYA multiplayer."
 
     wrench_melee_weapon_attack_mechanics:
-      - "Pressing square on the PS2 controller makes the player swing their wrench for a melee attack on flat ground."
-      - "Grounded wrench attacks are executed by pressing square, delivering a quick close-range swing."
-      - "The basic melee swing is triggered with the square button when standing on flat surfaces."
+      - "Pressing the square button while grounded triggers a quick close-range OmniWrench swing for a basic melee attack."
 
     wrench_melee_weapon_combat_value:
-      - "The wrench is weak compared to firearms and only useful as a last resort or for breaking crates."
-      - "It is mainly used to destroy crates or finish off low-health enemies at close range."
-      - "While not effective in duels, the wrench can surprise enemies in tight quarters or low-health situations."
+      - "The OmniWrench is generally weaker than firearms and is primarily used to break crates or finish low-health enemies, though it can occasionally be effective in tight close-range situations."
 
     wrench_hyperstrike_mechanics:
-      - "Pressing square in mid-air performs a hyperstrike, an overhead wrench slam that hits in melee range."
-      - "A hyperstrike is a downward slam executed mid-jump with square, used for aggressive close-range pressure."
-      - "The hyperstrike activates when you swing the wrench in mid-air, delivering a stronger melee blow on impact."
+      - "Pressing square in mid-air performs a hyperstrike, a downward overhead OmniWrench slam that delivers a stronger melee hit on impact."

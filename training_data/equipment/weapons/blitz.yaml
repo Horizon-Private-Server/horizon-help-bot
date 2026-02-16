@@ -4,51 +4,31 @@ facts:
 
   entries:
     weapon_identity:
-      - "The Blitz Gun is a powerful short-range combat shotgun from Ratchet & Clank 2 that exists in UYA that fires a wide spread of energy pellets."
-      - "The Blitz Gun is a close-range energy shotgun used in UYA multiplayer, effective in confined areas."
-      - "It's a high-damage, short-range weapon that fires a cone of energy pellets, ideal for point-blank kills."
+      - "The Blitz Gun is a high-damage short-range energy shotgun in UYA multiplayer that fires a wide cone of pellets, making it most effective in confined close-quarters engagements."
 
     weapon_nickname:
-      - "The Blitz Gun is commonly referred to as just 'Blitz' by players."
-      - "Players often shorten the Blitz Gun's name to 'Blitz'."
-      - "'Blitz' is the standard nickname used for the Blitz Gun in multiplayer lobbies and discussions."
+      - "The Blitz Gun is commonly abbreviated as 'Blitz' in multiplayer discussions and lobbies."
 
     weapon_damage_behavior:
-      - "The closer the target, the more pellets hit. At point-blank range, it can kill most enemies in two shots, or one shot if upgraded."
-      - "Damage scales with proximity—more pellets connect at close range, allowing one-shot kills when upgraded."
-      - "The Blitz Gun loses effectiveness at range due to spread, but dominates in tight quarters where all pellets hit."
+      - "Damage scales with proximity as more pellets connect at close range, enabling two-shot kills normally and potential one-shot kills when upgraded, while effectiveness drops significantly at longer distances due to spread."
 
     weapon_ammo_capacity:
-      - "The Blitz Gun holds 40 shots. Ammo must be managed carefully due to its slow fire rate and high damage per shot."
-      - "With 40 rounds per pickup, the Blitz Gun offers limited but powerful shots that must be conserved."
-      - "Each shot consumes one of its 40 available rounds, encouraging careful use in short-range engagements."
+      - "The Blitz Gun has a 40-round capacity with one round consumed per shot, requiring careful ammo management because of its limited supply and high per-shot impact."
 
     weapon_multi_target_utility:
-      - "Yes, the Blitz Gun's pellet spread can hit multiple enemies within its cone, especially in tight corridors."
-      - "The wide shot cone allows it to damage multiple enemies at once when they're grouped."
-      - "Its spread makes it effective for crowd control in close-quarters."
+      - "Its wide pellet spread can damage multiple grouped enemies simultaneously, giving it strong close-range crowd control potential."
 
     weapon_anti_air_capability:
-      - "Yes. Its wide spread and burst damage allow it to shoot down airborne targets like Hoverships at close range."
-      - "The Blitz Gun can damage low-flying enemies or airborne players when fired at the right moment."
-      - "Its strong burst and spread allow it to function as a close-range anti-air option."
+      - "The Blitz Gun can damage airborne players or low-flying targets at close range due to its burst damage and spread."
 
     weapon_upgrade_mechanism:
-      - "After 3 kill assists, the Blitz Gun upgrades to a more lethal version with increased damage."
-      - "The weapon upgrades to the Blitz Cannon after achieving 3 kills or assists."
-      - "It levels up after a few kills or assists, gaining power as Blitz Cannon."
+      - "After accumulating approximately three kills or assists, the Blitz Gun upgrades to the Blitz Cannon, increasing its lethality."
 
     weapon_upgrade_effects:
-      - "When upgraded, it can often kill in a single close-range shot and is more effective in tight defensive situations."
-      - "The Blitz Cannon delivers more pellets per shot and higher burst damage, making it deadlier in base defense."
-      - "Upgraded, it becomes lethal at point-blank and punishing in chokepoints."
+      - "As the Blitz Cannon, it delivers higher burst damage and pellet output, frequently enabling one-shot kills at point-blank and improving effectiveness in chokepoints and defensive scenarios."
 
     weapon_defensive_role:
-      - "In Siege or CTF base defense, it can instantly eliminate intruders entering confined spaces or teleporting into rooms."
-      - "The Blitz Gun excels at guarding tight entries, enabling defenders to stop enemies before they react."
-      - "It’s a premier defensive weapon for holding bases or objective rooms with one-shot potential at close range."
+      - "The Blitz Gun is highly effective for base or objective defense, allowing defenders to quickly eliminate enemies entering tight spaces or teleporting into rooms."
 
     weapon_community_opinion:
-      - "It is regarded as one of the best close-range weapons due to its dominance in tight spaces and defensive value, especially on small maps."
-      - "Players consider it a top-tier close-quarters option, ideal for base defense and room control."
-      - "Though limited by range and fire rate, it’s respected for its high lethality in close combat."
+      - "It is widely regarded by players as a top-tier close-quarters weapon due to its exceptional lethality and defensive strength despite its limited range and fire rate."
