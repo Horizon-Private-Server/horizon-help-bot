@@ -52,18 +52,40 @@ def build_records(input_dir: Path, ingested_at: str) -> List[Dict[str, Any]]:
             for idx, text in enumerate(variants):
                 if not isinstance(text, str):
                     continue
-                record = {
-                    "id": make_id(rel_path, entry_key, idx),
-                    "type": entry_key,
-                    "text": text,
-                    "params": params,
-                    "category": category,
-                    "source_file": str(rel_path),
-                    "source_mtime": source_mtime,
-                    "ingested_at": ingested_at,
-                }
-                records.append(record)
+                records.append(
+                    {
+                        "id": make_id(rel_path, entry_key, idx),
+                        "type": entry_key,
+                        "text": text,
+                        "params": params,
+                        "category": category,
+                        "source_file": str(rel_path),
+                        "source_mtime": source_mtime,
+                        "ingested_at": ingested_at,
+                    }
+                )
     return records
+
+
+def build_fact_lines(input_dir: Path) -> List[str]:
+    lines: List[str] = []
+    for path in iter_yaml_files(input_dir):
+        data = load_yaml(path)
+        facts = data.get("facts")
+        if not isinstance(facts, dict):
+            continue
+        entries = facts.get("entries")
+        if not isinstance(entries, dict):
+            continue
+
+        for variants in entries.values():
+            if not isinstance(variants, list):
+                continue
+            for text in variants:
+                if not isinstance(text, str):
+                    continue
+                lines.append(text)
+    return lines
 
 
 def write_jsonl(output_path: Path, records: List[Dict[str, Any]]) -> None:
@@ -73,9 +95,16 @@ def write_jsonl(output_path: Path, records: List[Dict[str, Any]]) -> None:
             handle.write(json.dumps(record, ensure_ascii=True) + "\n")
 
 
-def main() -> int:
+def write_txt(output_path: Path, lines: List[str]) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w", encoding="utf-8") as handle:
+        for line in lines:
+            handle.write(line + "\n")
+
+
+def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Convert training_data YAML facts to JSONL records."
+        description="Convert training_data YAML facts into a compressed text format."
     )
     parser.add_argument(
         "--input-dir",
@@ -83,19 +112,34 @@ def main() -> int:
         help="Root directory containing YAML fact files.",
     )
     parser.add_argument(
-        "--output",
-        default="all.jsonl",
-        help="Output JSONL path.",
+        "--format",
+        choices=("txt", "jsonl"),
+        required=True,
+        help="Output format.",
     )
-    args = parser.parse_args()
+    parser.add_argument(
+        "--output",
+        help="Output path. Defaults to all.<format>.",
+    )
+    return parser.parse_args()
 
+
+def main() -> int:
+    args = parse_args()
     input_dir = Path(args.input_dir).resolve()
-    output_path = Path(args.output).resolve()
+    output_path = (
+        Path(args.output).resolve() if args.output else Path(f"all.{args.format}").resolve()
+    )
+
+    if args.format == "txt":
+        lines = build_fact_lines(input_dir)
+        write_txt(output_path, lines)
+        print(f"Wrote {len(lines)} facts to {output_path}")
+        return 0
 
     ingested_at = datetime.now(timezone.utc).isoformat()
     records = build_records(input_dir, ingested_at)
     write_jsonl(output_path, records)
-
     print(f"Wrote {len(records)} records to {output_path}")
     return 0
 
