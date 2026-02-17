@@ -42,7 +42,7 @@ def parse_args() -> Tuple[argparse.Namespace, List[str]]:
     )
     parser.add_argument(
         "stage",
-        help="Stage to run (for example: 00, 00_preprocess, or 00_preprocess.py).",
+        help="Stage to run (for example: 00, 00_extract_jsonl, or 00_extract_jsonl.py).",
     )
     return parser.parse_known_args()
 
