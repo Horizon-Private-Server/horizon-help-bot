@@ -16,8 +16,8 @@ MILVUS_PORT = "19530"
 EMBED_MODEL = "BAAI/bge-base-en-v1.5"
 
 # OpenAI-compatible llama.cpp server base (no trailing slash)
-LLM_BASE_URL = "http://172.31.222.6:8080/v1"
-LLM_MODEL = "falcon"
+LLM_BASE_URL = "http://172.31.222.51:8080/v1"
+LLM_MODEL = "qwen"
 
 DEFAULT_TOPK = 12
 DEFAULT_MAX_TOKENS = 2000
