@@ -3,11 +3,17 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
+from pathlib import Path
 from pymilvus import connections, Collection
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
+from dotenv import load_dotenv
 import requests
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(ROOT_DIR / ".env")
 
 COLLECTION_NAME = "uya_facts"
 MILVUS_HOST = "localhost"
@@ -16,7 +22,7 @@ MILVUS_PORT = "19530"
 EMBED_MODEL = "BAAI/bge-base-en-v1.5"
 
 # OpenAI-compatible llama.cpp server base (no trailing slash)
-LLM_BASE_URL = "http://172.31.222.51:8080/v1"
+LLM_BASE_URL = os.getenv("LLM_API_URL", "http://127.0.0.1:8080/v1").rstrip("/")
 LLM_MODEL = "qwen"
 
 DEFAULT_TOPK = 12

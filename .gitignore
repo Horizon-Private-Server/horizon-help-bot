@@ -1,3 +1,5 @@
+logs/
+*.pyc
 .env
 *.txt
 *.jsonl

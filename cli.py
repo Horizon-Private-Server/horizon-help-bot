@@ -38,26 +38,41 @@ def resolve_stage(stage_name: str, stages: Dict[str, Path]) -> Optional[Path]:
 
 def parse_args() -> Tuple[argparse.Namespace, List[str]]:
     parser = argparse.ArgumentParser(
-        description="Run a specific pipeline stage from the stages/ directory."
+        description=(
+            "Run a pipeline stage from stages/ or special commands like 'bot'."
+        )
     )
     parser.add_argument(
         "stage",
-        help="Stage to run (for example: 00, 00_extract_jsonl, or 00_extract_jsonl.py).",
+        help=(
+            "Stage to run (for example: 00, 00_extract_jsonl, 00_extract_jsonl.py) "
+            "or 'bot'."
+        ),
     )
     return parser.parse_known_args()
 
 
 def main() -> int:
+    repo_root = Path(__file__).resolve().parent
     args, stage_args = parse_args()
+    if args.stage == "bot":
+        bot_path = repo_root / "discord" / "bot.py"
+        if not bot_path.exists():
+            print(f"Missing bot entrypoint: {bot_path}", file=sys.stderr)
+            return 2
+        cmd = [sys.executable, str(bot_path), *stage_args]
+        completed = subprocess.run(cmd, cwd=repo_root)
+        return completed.returncode
+
     stages = discover_stages()
     stage_path = resolve_stage(args.stage, stages)
     if stage_path is None:
         print(f"Unknown stage: {args.stage}", file=sys.stderr)
         available = ", ".join(stages.keys()) if stages else "(none found)"
         print(f"Available stages: {available}", file=sys.stderr)
+        print("Special commands: bot", file=sys.stderr)
         return 2
 
-    repo_root = Path(__file__).resolve().parent
     cmd = [sys.executable, str(stage_path), *stage_args]
     completed = subprocess.run(cmd, cwd=repo_root)
     return completed.returncode
